@@ -39,7 +39,7 @@ const generateThemeObject = (colors: any, mapping: any, invert = false) => {
 }
 
 const lightTheme = generateThemeObject(colors, shadeMapping);
-const darkTheme = generateThemeObject(colors, shadeMapping, false);
+const darkTheme = generateThemeObject(colors, shadeMapping, true);
 
 const themes = {
   light: {
