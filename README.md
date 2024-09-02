@@ -24,4 +24,10 @@ npx tsc --init
 npx prisma migrate dev --name init
 #
 npm run seed
+#
+npm i express body-parser cors dotenv helmet morgan concurrently
+#
+npm i -D nodemon @types/cors @types/express @types/morgan
+#
+npm i rimraf
 ```
