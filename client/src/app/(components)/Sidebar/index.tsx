@@ -76,13 +76,13 @@ const Sidebar = () => {
             isCollapsed={isSidebarCollapsed} 
           />
           <SidebarLink 
-            href='/product' 
+            href='/products' 
             icon={Clipboard} 
             label='Products' 
             isCollapsed={isSidebarCollapsed} 
           />
           <SidebarLink 
-            href='/user' 
+            href='/users' 
             icon={User} 
             label='Users' 
             isCollapsed={isSidebarCollapsed} 
